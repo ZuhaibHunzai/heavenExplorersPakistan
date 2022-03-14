@@ -15,7 +15,7 @@ const Hero = () => {
       <div className={classes.HeroTextArea}>
         <div className={classes.heroHeading}>
           <Typography variant="h2" className={classes.heroMainH}>
-            Nouman Aka Barataling
+            Heaven Explorers Pakistan
           </Typography>
         </div>
         <div className={classes.heroPara}>
