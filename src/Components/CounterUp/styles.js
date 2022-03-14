@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-around",
     alignItems: "center",
     flexWrap: "wrap",
+    color: "#313131",
     [theme.breakpoints.down("sm")]: {
       height: "500px",
       flexDirection: "column",

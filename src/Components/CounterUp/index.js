@@ -16,20 +16,20 @@ const CounterUp = () => {
           />
         </div>
         <Typography variant="p" className={classes.counterP}>
-          No of Clients
+          Tour Completed
         </Typography>
       </div>
       <div className={classes.counter}>
         <div>
           <CountUp
             useEasing={true}
-            end={10000}
+            end={12000}
             duration={5}
             className={classes.couterup}
           />
         </div>
         <Typography variant="p" className={classes.counterP}>
-          Projects Completed
+          Total Guests
         </Typography>
       </div>
       <div className={classes.counter}>

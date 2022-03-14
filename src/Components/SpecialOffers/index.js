@@ -4,6 +4,7 @@ import hunza from "../../Assets/Images/hunza.jpg";
 import skardu from "../../Assets/Images/skardu.jpg";
 import fairyMeadows from "../../Assets/Images/fairymeadows.jpg";
 import nalter from "../../Assets/Images/nalter.jpg";
+import { Buttons } from "../Units/buttons";
 const SpecialOffers = () => {
   const classes = useStyles();
   return (
@@ -21,6 +22,13 @@ const SpecialOffers = () => {
               elit, sed do eiusmod tempor incididunt ut aboris nisi ut aliquip
               ex ea commodo consequat.
             </p>
+            <Buttons
+              buttonSize="btn--medium"
+              buttonStyle="btn--primary--solid"
+              className={classes.bookingBtn}
+            >
+              Book Now
+            </Buttons>
           </div>
           <div className={classes.pic_div}>
             <img src={hunza} alt="kashi" className={classes.pic} />
@@ -41,6 +49,13 @@ const SpecialOffers = () => {
               elit, sed do eiusmod tempor incididunt ut aboris nisi ut aliquip
               ex ea commodo consequat.
             </p>
+            <Buttons
+              buttonSize="btn--medium"
+              buttonStyle="btn--primary--solid"
+              className={classes.bookingBtn}
+            >
+              Book Now
+            </Buttons>
           </div>
         </div>
         {/* third Offer */}
@@ -55,6 +70,13 @@ const SpecialOffers = () => {
               elit, sed do eiusmod tempor incididunt ut aboris nisi ut aliquip
               ex ea commodo consequat.
             </p>
+            <Buttons
+              buttonSize="btn--medium"
+              buttonStyle="btn--primary--solid"
+              className={classes.bookingBtn}
+            >
+              Book Now
+            </Buttons>
           </div>
           <div className={classes.pic_div}>
             <img src={fairyMeadows} alt="kashi" className={classes.pic} />
@@ -75,6 +97,13 @@ const SpecialOffers = () => {
               elit, sed do eiusmod tempor incididunt ut aboris nisi ut aliquip
               ex ea commodo consequat.
             </p>
+            <Buttons
+              buttonSize="btn--medium"
+              buttonStyle="btn--primary--solid"
+              className={classes.bookingBtn}
+            >
+              Book Now
+            </Buttons>
           </div>
         </div>
       </div>
@@ -141,6 +170,9 @@ const useStyles = makeStyles((theme) => ({
       textAlign: "justify",
       paddingBottom: "12",
     },
+  },
+  bookingBtn: {
+    marginTop: "12px",
   },
 }));
 export default SpecialOffers;
