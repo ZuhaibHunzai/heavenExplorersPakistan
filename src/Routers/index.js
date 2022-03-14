@@ -5,19 +5,16 @@ import AboutPage from "../Pages/About";
 import ContactPage from "../Pages/Contact";
 import HomePage from "../Pages/Home";
 import ServicesPage from "../Pages/Services";
-import TeamPage from "../Pages/Team";
 import HeaderCon from "../Components/HeaderConditional";
-import LegalCasesPage from "../Pages/LegalCases";
-import FormRegPage from "../Pages/FormRegistration";
-import CompanyRegPage from "../Pages/CompanyRegistration";
-import NtnGstRegPage from "../Pages/NtnGstRegistration";
-import TradeMarkPage from "../Pages/TradeMarkRegistration";
-import IncomeSalesPage from "../Pages/IncomeSaleTaxReturns";
-import NgoSocietyTrustRegPage from "../Pages/NgoSocietyTrustRegistration";
-import ChamberPage from "../Pages/ChamberOfCommerceRegistration";
-
-import UpdatesPage from "../Pages/Updates";
-import GeneralServicesPage from "../Pages/GeneralServices";
+import SpecialOffersPage from "../Pages/SpecialOffersPage";
+import ExpeditionsPage from "../Pages/ExpeditionPage";
+import JeepSafariPage from "../Pages/JeepSafariPage";
+import TrekkingPage from "../Pages/TrekkingPage";
+import HikingPage from "../Pages/HikingPage";
+import AirlinePage from "../Pages/AirlinePage";
+import HotelBookingPage from "../Pages/HotelBookingPage";
+import TourGuidePage from "../Pages/TourGuidePage";
+import RentaCarPage from "../Pages/RentACarPage";
 
 const Routers = () => {
   return (
@@ -27,27 +24,34 @@ const Routers = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<ServicesPage />} />
-          <Route path="/team" element={<TeamPage />} />
+          <Route path="/offers" element={<SpecialOffersPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/new-updates" element={<UpdatesPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/legal-cases-matters" element={<LegalCasesPage />} />
-          <Route path="/company-registration" element={<CompanyRegPage />} />
-          <Route path="/form-registration" element={<FormRegPage />} />
-          <Route path="/ntn-gst-registration" element={<NtnGstRegPage />} />
-          <Route path="/trade-mark-registration" element={<TradeMarkPage />} />
-          <Route path="general-services" element={<GeneralServicesPage />} />
           <Route
-            path="/income-sales-tax-returns"
-            element={<IncomeSalesPage />}
+            path="/services/expedition-services"
+            element={<ExpeditionsPage />}
           />
           <Route
-            path="/ngo-society-trust-registration"
-            element={<NgoSocietyTrustRegPage />}
+            path="/services/jeep-safari-services"
+            element={<JeepSafariPage />}
           />
           <Route
-            path="/chamber-of-commerce-registration"
-            element={<ChamberPage />}
+            path="/services/trekking-services"
+            element={<TrekkingPage />}
+          />
+          <Route path="/services/hiking-services" element={<HikingPage />} />
+          <Route path="/services/airline-services" element={<AirlinePage />} />
+          <Route
+            path="/services/hotel-booking-services"
+            element={<HotelBookingPage />}
+          />
+          <Route
+            path="/services/tour-guide-services"
+            element={<TourGuidePage />}
+          />
+          <Route
+            path="/services/rent-a-car-services"
+            element={<RentaCarPage />}
           />
         </Routes>
         <Footer />

@@ -5,7 +5,6 @@ const useStyles = makeStyles((theme) => ({
     height: "400px",
     display: "flex",
     flexDirection: "column",
-    borderTop: "1px solid #156663",
     [theme.breakpoints.down("md")]: {
       height: "auto",
     },

@@ -19,12 +19,10 @@ const Footer = () => {
             />
           </div>
           <div className={classes.footerP}>
-            <Typography variant="h5">A Law Associates</Typography>
+            <Typography variant="h5">Heaven Explorers Pakistan</Typography>
           </div>
           <div className={classes.footerP}>
-            <Typography variant="body2">
-              Legal Advisor and Tax Consultants
-            </Typography>
+            <Typography variant="body2">Local and Tour Website</Typography>
           </div>
         </div>
         <div className={classes.footerText}>
@@ -44,24 +42,21 @@ const Footer = () => {
             >
               <Typography variant="p" className={classes.lawAsscoiates}>
                 <ul>
-                  <li>alawconsultants@gmail.com</li>
+                  <li>info@heavenexplorerspakistan.com</li>
                 </ul>
               </Typography>
             </div>
             <div className={classes.lawAsscoiatesText}>
               <Typography variant="p" className={classes.lawAsscoiates}>
                 <ul>
-                  <li>051-4927179, +92-3235119763</li>
+                  <li>03495747188</li>
                 </ul>
               </Typography>
             </div>
             <div className={classes.lawAsscoiatesText}>
               <Typography variant="p" className={classes.lawAsscoiates}>
                 <ul>
-                  <li>
-                    Office#1, 1st Floor, 64-C, Al Fazal Plaza, Block C,
-                    Satellite Town, Sadiqabad More, Rwp
-                  </li>
+                  <li>Office#1 Hunza Plaza, Hunza, GB, Pakistan</li>
                 </ul>
               </Typography>
             </div>
@@ -100,7 +95,7 @@ const Footer = () => {
             className={classes.lawAsscoiates}
             style={{ fontSize: "16px" }}
           >
-            Copyright 2022 © A Law Associates
+            Copyright 2022 © Heaven Explorers Pakistan
           </Typography>
         </div>
       </div>

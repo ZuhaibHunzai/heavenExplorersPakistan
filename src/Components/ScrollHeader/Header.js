@@ -75,26 +75,26 @@ const ScrollHeader = () => {
                 type="button"
                 buttonStyle="btn--white--solid"
                 buttonSize="btn--medium"
-                onClick={() => handleRoute("/team")}
+                onClick={() => handleRoute("/offers")}
               >
-                Team
+                Offers
               </Buttons>
 
               <Buttons
                 type="button"
                 buttonStyle="btn--white--solid"
                 buttonSize="btn--medium"
-                onClick={() => handleRoute("/about")}
+                onClick={() => handleRoute("/gallary")}
               >
-                About
+                Gallary
               </Buttons>
               <Buttons
                 type="button"
                 buttonStyle="btn--white--solid"
                 buttonSize="btn--medium"
-                onClick={() => handleRoute("/new-updates")}
+                onClick={() => handleRoute("/contact")}
               >
-                Updates
+                Contact
               </Buttons>
             </div>
             <div className="walletDiv">
@@ -102,10 +102,10 @@ const ScrollHeader = () => {
                 type="button"
                 buttonStyle="btn--white--outlined"
                 buttonSize="btn-large"
-                onClick={() => handleRoute("/contact")}
+                onClick={() => handleRoute("/booking")}
                 className={classes.bookingBtn}
               >
-                Book Consultant
+                Book a Trip
               </Buttons>
 
               <HamBurger />

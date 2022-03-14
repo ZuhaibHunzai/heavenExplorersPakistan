@@ -64,26 +64,26 @@ const Header = React.forwardRef((props, ref) => {
             type="button"
             buttonStyle="btn--black--solid"
             buttonSize="btn--medium"
-            onClick={() => handleRoute("/team")}
+            onClick={() => handleRoute("/offers")}
           >
-            Team
+            Offers
           </Buttons>
 
           <Buttons
             type="button"
             buttonStyle="btn--black--solid"
             buttonSize="btn--medium"
-            onClick={() => handleRoute("/about")}
+            onClick={() => handleRoute("/gallary")}
           >
-            About
+            Gallary
           </Buttons>
           <Buttons
             type="button"
             buttonStyle="btn--black--solid"
             buttonSize="btn--medium"
-            onClick={() => handleRoute("/new-updates")}
+            onClick={() => handleRoute("/contact")}
           >
-            Updates
+            Contact
           </Buttons>
         </div>
         <div className="walletDiv">
@@ -91,10 +91,10 @@ const Header = React.forwardRef((props, ref) => {
             type="button"
             buttonStyles="btn--primary--solid"
             buttonSize="btn-large"
-            onClick={() => handleRoute("/contact")}
+            onClick={() => handleRoute("/booking")}
             className={classes.bookingBtn}
           >
-            Book Consultant
+            Book a Trip
           </Buttons>
 
           <HamBurger />

@@ -80,65 +80,41 @@ export const servicesData = [
   {
     title: "Expeditions",
     src: expedition,
-    link: "chamber-of-commerce-registration",
+    link: "services/expedition-services",
   },
   {
     title: "Trekking",
     src: trekking,
-    link: "chamber-of-commerce-registration",
+    link: "services/trekking-services",
   },
   {
     title: "Hiking",
     src: hiking,
-    link: "chamber-of-commerce-registration",
+    link: "services/hiking-services",
   },
   {
     title: "Jeep Safari",
     src: jeep,
-    link: "chamber-of-commerce-registration",
+    link: "services/jeep-safari-services",
   },
   {
     title: "Airline",
     src: airline,
-    link: "chamber-of-commerce-registration",
+    link: "services/airline-services",
   },
   {
     title: "Hotel Booking",
     src: hotel,
-    link: "chamber-of-commerce-registration",
+    link: "services/hotel-booking-services",
   },
   {
     title: "Tour Guides",
     src: guide,
-    link: "chamber-of-commerce-registration",
+    link: "services/tour-guide-services",
   },
   {
     title: "Rent a Car",
     src: car,
-    link: "chamber-of-commerce-registration",
-  },
-];
-
-export const updates = [
-  {
-    updateName: "New updates for tax registration",
-    updateAbstract:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
-    updateDesc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure",
-  },
-  {
-    updateName: "New updates for tax registration",
-    updateAbstract:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
-    updateDesc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure",
-  },
-  {
-    updateName: "New updates for tax registration",
-    updateAbstract:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
-    updateDesc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure",
+    link: "services/rent-a-car-services",
   },
 ];

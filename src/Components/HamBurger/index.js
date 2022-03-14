@@ -89,9 +89,9 @@ const HamBurger = (props) => {
                   type="button"
                   buttonStyle="btn--black--solid"
                   buttonSize="btn--medium"
-                  onClick={() => handleRoute("/team")}
+                  onClick={() => handleRoute("/offers")}
                 >
-                  Team
+                  Offers
                 </Buttons>
               </Box>
               <Box>
@@ -99,9 +99,9 @@ const HamBurger = (props) => {
                   type="button"
                   buttonStyle="btn--black--solid"
                   buttonSize="btn--medium"
-                  onClick={() => handleRoute("/about")}
+                  onClick={() => handleRoute("/gallary")}
                 >
-                  About
+                  Gallary
                 </Buttons>
               </Box>
 
@@ -110,9 +110,9 @@ const HamBurger = (props) => {
                   type="button"
                   buttonStyle="btn--black--solid"
                   buttonSize="btn--medium"
-                  onClick={() => handleRoute("/new-updates")}
+                  onClick={() => handleRoute("/contact")}
                 >
-                  Updates
+                  Contact
                 </Buttons>
               </Box>
               <Box>
@@ -120,9 +120,9 @@ const HamBurger = (props) => {
                   type="button"
                   buttonStyle="btn--primary--solid"
                   buttonSize="btn--medium"
-                  onClick={() => handleRoute("/contact")}
+                  onClick={() => handleRoute("/booking")}
                 >
-                  Book Consultants
+                  Book a trip
                 </Buttons>
               </Box>
             </Box>

@@ -2,8 +2,8 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   card: {
-    width: "280px",
-    height: "auto",
+    width: "310px",
+    height: "400px",
     backgroundColor: "#fff",
     display: "flex",
     justifyContent: "center",
@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "space-between",
     flexDirection: "column",
+    backgroundColor: "#156663",
   },
   cardText: {
     paddingLeft: "12px",
@@ -46,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
       gridGap: "30px",
     },
     cardH: {
-      color: "#162275",
+      color: "#FFFFFF",
     },
     cardP: {},
     cardBtnMain: {

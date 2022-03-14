@@ -1,6 +1,6 @@
 import { Typography } from "@material-ui/core";
+import ServicesMap from "../ServicesMap";
 
-import ServicesMap from "../TeamMembers";
 import useStyles from "./styles";
 
 const Services = () => {
