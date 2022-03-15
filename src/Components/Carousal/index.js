@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import ItemsCarousel from "react-items-carousel";
-import form from "../../Assets/Images/form.jpg";
-import gst from "../../Assets/Images/gst.jpg";
-import legal from "../../Assets/Images/legal.jpg";
-import society from "../../Assets/Images/society.jpg";
+import fairymeadows from "../../Assets/Images/fairymeadows.jpg";
+import hunza from "../../Assets/Images/hunza.jpg";
+import skardu from "../../Assets/Images/skardu.jpg";
+import naltar from "../../Assets/Images/nalter.jpg";
+import trek from "../../Assets/Images/trekking.jpg";
+import hike from "../../Assets/Images/hike.jpg";
 import useStyles from "./styles";
 
-const Slider = () => {
+const Gallary = () => {
   const classes = useStyles();
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const chevronWidth = 40;
@@ -24,20 +26,26 @@ const Slider = () => {
         enablePlaceholder={true}
       >
         <div className={classes.sliderMain}>
-          <img src={society} alt="img" className={classes.sliderMain} />
+          <img src={fairymeadows} alt="img" className={classes.sliderMain} />
         </div>
         <div className={classes.sliderMain}>
-          <img src={form} alt="img" className={classes.sliderMain} />
+          <img src={hunza} alt="img" className={classes.sliderMain} />
         </div>
         <div className={classes.sliderMain}>
-          <img src={gst} alt="img" className={classes.sliderMain} />
+          <img src={skardu} alt="img" className={classes.sliderMain} />
         </div>
         <div className={classes.sliderMain}>
-          <img src={legal} alt="img" className={classes.sliderMain} />
+          <img src={naltar} alt="img" className={classes.sliderMain} />
+        </div>
+        <div className={classes.sliderMain}>
+          <img src={trek} alt="img" className={classes.sliderMain} />
+        </div>
+        <div className={classes.sliderMain}>
+          <img src={hike} alt="img" className={classes.sliderMain} />
         </div>
       </ItemsCarousel>
     </div>
   );
 };
 
-export default Slider;
+export default Gallary;

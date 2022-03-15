@@ -6,8 +6,13 @@ import fairyMeadows from "../../Assets/Images/fairymeadows.jpg";
 import nalter from "../../Assets/Images/nalter.jpg";
 import { Buttons } from "../Units/buttons";
 import { ServicesHeader } from "../Units/servicesHeader";
+import { useNavigate } from "react-router-dom";
 const SpecialOffers = () => {
   const classes = useStyles();
+  const navigate = useNavigate();
+  function handleRoute(path) {
+    navigate(path);
+  }
   return (
     <>
       <div className={classes.container}>
@@ -32,6 +37,9 @@ const SpecialOffers = () => {
                 buttonSize="btn--medium"
                 buttonStyle="btn--secondary--outlined"
                 className={classes.bookingBtn}
+                onClick={() => {
+                  handleRoute("/offers/offer-booking");
+                }}
               >
                 Book Now
               </Buttons>
@@ -59,6 +67,9 @@ const SpecialOffers = () => {
                 buttonSize="btn--medium"
                 buttonStyle="btn--secondary--outlined"
                 className={classes.bookingBtn}
+                onClick={() => {
+                  handleRoute("/offers/offer-booking");
+                }}
               >
                 Book Now
               </Buttons>
@@ -80,6 +91,9 @@ const SpecialOffers = () => {
                 buttonSize="btn--medium"
                 buttonStyle="btn--secondary--outlined"
                 className={classes.bookingBtn}
+                onClick={() => {
+                  handleRoute("/offers/offer-booking");
+                }}
               >
                 Book Now
               </Buttons>
@@ -107,6 +121,9 @@ const SpecialOffers = () => {
                 buttonSize="btn--medium"
                 buttonStyle="btn--secondary--outlined"
                 className={classes.bookingBtn}
+                onClick={() => {
+                  handleRoute("/offers/offer-booking");
+                }}
               >
                 Book Now
               </Buttons>
@@ -125,8 +142,6 @@ const useStyles = makeStyles((theme) => ({
   offersMain: {
     width: "100%",
     backgroundColor: "#156663",
-    // borderTopLeftRadius: "350px",
-    // borderBottomRightRadius: "350px",
   },
   kashi: {
     display: "flex",

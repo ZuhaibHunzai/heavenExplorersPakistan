@@ -15,6 +15,8 @@ import AirlinePage from "../Pages/AirlinePage";
 import HotelBookingPage from "../Pages/HotelBookingPage";
 import TourGuidePage from "../Pages/TourGuidePage";
 import RentaCarPage from "../Pages/RentACarPage";
+import OfferBookingPage from "../Pages/OfferBookingPage";
+import GallaryPage from "../Pages/GallaryPage";
 
 const Routers = () => {
   return (
@@ -27,6 +29,8 @@ const Routers = () => {
           <Route path="/offers" element={<SpecialOffersPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/gallary" element={<GallaryPage />} />
+          <Route path="/offers/offer-booking" element={<OfferBookingPage />} />
           <Route
             path="/services/expedition-services"
             element={<ExpeditionsPage />}

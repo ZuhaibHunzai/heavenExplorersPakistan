@@ -19,7 +19,16 @@ const Header = React.forwardRef((props, ref) => {
       <Toolbar className={classes.Toolbar}>
         <div className={classes.logoDiv}>
           <div className={classes.logoName}>
-            <img width="140px" className={classes.logo} src={Logo} alt="logo" />
+            <img
+              onClick={() => {
+                handleRoute("/");
+              }}
+              style={{ cursor: "pointer" }}
+              width="140px"
+              className={classes.logo}
+              src={Logo}
+              alt="logo"
+            />
           </div>
           <div className={classes.logoText}>
             <div>
@@ -81,6 +90,14 @@ const Header = React.forwardRef((props, ref) => {
             type="button"
             buttonStyle="btn--black--solid"
             buttonSize="btn--medium"
+            onClick={() => handleRoute("/about")}
+          >
+            About
+          </Buttons>
+          <Buttons
+            type="button"
+            buttonStyle="btn--black--solid"
+            buttonSize="btn--medium"
             onClick={() => handleRoute("/contact")}
           >
             Contact
@@ -91,7 +108,9 @@ const Header = React.forwardRef((props, ref) => {
             type="button"
             buttonStyles="btn--primary--solid"
             buttonSize="btn-large"
-            onClick={() => handleRoute("/booking")}
+            onClick={() => {
+              handleRoute("/offers/offer-booking");
+            }}
             className={classes.bookingBtn}
           >
             Book a Trip

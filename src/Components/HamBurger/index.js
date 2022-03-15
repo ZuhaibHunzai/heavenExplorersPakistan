@@ -120,7 +120,9 @@ const HamBurger = (props) => {
                   type="button"
                   buttonStyle="btn--primary--solid"
                   buttonSize="btn--medium"
-                  onClick={() => handleRoute("/booking")}
+                  onClick={() => {
+                    handleRoute("/offers/offer-booking");
+                  }}
                 >
                   Book a trip
                 </Buttons>

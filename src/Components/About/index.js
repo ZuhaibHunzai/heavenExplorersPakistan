@@ -1,5 +1,5 @@
 import { ServicesHeader } from "../Units/servicesHeader";
-import profile from "../../Assets/Images/profile.jpeg";
+import profile from "../../Assets/Images/company.jpg";
 import { Typography } from "@material-ui/core";
 import useStyles from "./styles";
 import Location from "../Location";
@@ -22,12 +22,12 @@ const About = () => {
         <div className={classes.servicesBodyTextDiv}>
           <div className={classes.servicesBodyTextH}>
             <Typography variant="h2" className={classes.serviceH}>
-              Raja Abid Hussain
+              Heaven Explorers Pakistan
             </Typography>
           </div>
           <div className={classes.servicesBodyTextH}>
             <Typography variant="h2" className={classes.serviceH2}>
-              Member Islamabad / Rawalpindi Tax Bar Association
+              Tour Company
             </Typography>
           </div>
           <div className={classes.servicesbodyTextP}>

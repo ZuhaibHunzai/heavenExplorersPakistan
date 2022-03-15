@@ -26,6 +26,10 @@ const ScrollHeader = () => {
             <div className={classes.logoDiv}>
               <div className={classes.logoName}>
                 <img
+                  onClick={() => {
+                    handleRoute("/");
+                  }}
+                  style={{ cursor: "pointer" }}
                   width="140px"
                   className={classes.logo}
                   src={Logo}
@@ -92,6 +96,14 @@ const ScrollHeader = () => {
                 type="button"
                 buttonStyle="btn--white--solid"
                 buttonSize="btn--medium"
+                onClick={() => handleRoute("/about")}
+              >
+                About
+              </Buttons>
+              <Buttons
+                type="button"
+                buttonStyle="btn--white--solid"
+                buttonSize="btn--medium"
                 onClick={() => handleRoute("/contact")}
               >
                 Contact
@@ -102,7 +114,9 @@ const ScrollHeader = () => {
                 type="button"
                 buttonStyle="btn--white--outlined"
                 buttonSize="btn-large"
-                onClick={() => handleRoute("/booking")}
+                onClick={() => {
+                  handleRoute("/offers/offer-booking");
+                }}
                 className={classes.bookingBtn}
               >
                 Book a Trip
