@@ -46,12 +46,12 @@ const useStyles = makeStyles((theme) => ({
       width: "auto",
     },
   },
-  lawAssocoiatesText: {
+  heavenExplorerText: {
     [theme.breakpoints.down("xs")]: {
       marginTop: "12px",
     },
   },
-  lawAsscoiates: {
+  heavenExplorer: {
     paddingTop: "20px",
   },
   footerP: {

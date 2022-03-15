@@ -19,7 +19,7 @@ const Hero = () => {
           </Typography>
         </div>
         <div className={classes.heroPara}>
-          <Typography variant="p" className={classes.heroMainP}>
+          <Typography variant="subtitle1" className={classes.heroMainP}>
             Heaven Explorers Pakistan is supporting tourists to make, plan,
             manage and operate trips in Gilgit-Baltistan, pakistan.<br></br>{" "}
             (Tours, Expeditions, Trekking, Hiking, travel)

@@ -28,8 +28,8 @@ const Footer = () => {
         <div className={classes.footerText}>
           <div>
             <Typography
-              variant="p"
-              className={classes.lawAsscoiatesT}
+              variant="subtitle1"
+              className={classes.heavenExplorerT}
               style={{ fontSize: "22px" }}
             >
               Contact Us
@@ -37,24 +37,33 @@ const Footer = () => {
           </div>
           <div>
             <div
-              className={classes.lawAsscoiatesText}
+              className={classes.heavenExplorer}
               style={{ paddingTop: "12px" }}
             >
-              <Typography variant="p" className={classes.lawAsscoiates}>
+              <Typography
+                variant="subtitle1"
+                className={classes.heavenExplorer}
+              >
                 <ul>
                   <li>info@heavenexplorerspakistan.com</li>
                 </ul>
               </Typography>
             </div>
-            <div className={classes.lawAsscoiatesText}>
-              <Typography variant="p" className={classes.lawAsscoiates}>
+            <div className={classes.heavenExplorerText}>
+              <Typography
+                variant="subtitle1"
+                className={classes.heavenExplorer}
+              >
                 <ul>
                   <li>03495747188</li>
                 </ul>
               </Typography>
             </div>
-            <div className={classes.lawAsscoiatesText}>
-              <Typography variant="p" className={classes.lawAsscoiates}>
+            <div className={classes.heavenExplorerText}>
+              <Typography
+                variant="subtitle1"
+                className={classes.heavenExplorer}
+              >
                 <ul>
                   <li>Office#1 Hunza Plaza, Hunza, GB, Pakistan</li>
                 </ul>
@@ -65,8 +74,8 @@ const Footer = () => {
         <div className={classes.SocialMediaIcons}>
           <div>
             <Typography
-              variant="p"
-              className={classes.lawAsscoiatesT}
+              variant="subtitle1"
+              className={classes.heavenExplorerT}
               style={{ fontSize: "22px" }}
             >
               Follow Us
@@ -91,8 +100,8 @@ const Footer = () => {
       <div className={classes.FooterTextCopyRight}>
         <div>
           <Typography
-            variant="p"
-            className={classes.lawAsscoiates}
+            variant="subtitle1"
+            className={classes.heavenExplorer}
             style={{ fontSize: "16px" }}
           >
             Copyright 2022 © Heaven Explorers Pakistan

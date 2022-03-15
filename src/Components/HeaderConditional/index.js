@@ -8,7 +8,6 @@ const HeaderCon = () => {
   const headerRef = useRef(null);
   useEffect(() => {
     const fn = () => {
-      console.log({ headerRef });
       if (
         headerRef.current &&
         (document.body.scrollTop > 20 ||

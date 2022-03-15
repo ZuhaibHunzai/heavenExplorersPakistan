@@ -33,7 +33,7 @@ const Header = React.forwardRef((props, ref) => {
           <div className={classes.logoText}>
             <div>
               <Typography
-                variant="p"
+                variant="subtitle1"
                 className={classes.logoTextMainH}
                 style={{ color: "#162275" }}
               >
@@ -41,11 +41,7 @@ const Header = React.forwardRef((props, ref) => {
               </Typography>
             </div>
             <div>
-              <Typography
-                variant="p"
-                logoTextMainP
-                style={{ color: "#162275" }}
-              >
+              <Typography variant="subtitle1" style={{ color: "#162275" }}>
                 Local and Tour Website
               </Typography>
             </div>
