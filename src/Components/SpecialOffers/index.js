@@ -17,7 +17,9 @@ const SpecialOffers = () => {
     <>
       <div className={classes.container}>
         <div className={classes.offersHeader}>
-          <ServicesHeader>Special Offers</ServicesHeader>
+          <ServicesHeader style={{ backgroundColor: "#FFFFFF" }}>
+            Special Offers
+          </ServicesHeader>
         </div>
 
         <div className={classes.offersMain}>
@@ -136,7 +138,7 @@ const SpecialOffers = () => {
 };
 const useStyles = makeStyles((theme) => ({
   container: {
-    backgroundColor: "#156663",
+    // backgroundColor: "#156663",
     color: "#FFFFFF",
   },
   offersMain: {
