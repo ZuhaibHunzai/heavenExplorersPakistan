@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   FooterMain: {
-    height: "350px",
+    height: "400px",
     backgroundColor: "#156663",
     display: "flex",
     justifyContent: "center",
@@ -32,13 +32,13 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   footerText: {
-    width: "300px",
+    width: "350px",
+    height: "auto",
     color: "#fff",
     [theme.breakpoints.down("md")]: {
-      marginTop: "20px",
+      width: "auto",
       display: "flex",
       justifyContent: "left",
-
       flexDirection: "column",
       height: "auto",
     },
@@ -52,10 +52,13 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heavenExplorer: {
-    paddingTop: "20px",
+    // paddingTop: "20px",
   },
   footerP: {
-    width: "300px",
+    width: "350px",
+    [theme.breakpoints.down("md")]: {
+      width: "auto",
+    },
   },
   SocialMediaIcons: {
     display: "flex",

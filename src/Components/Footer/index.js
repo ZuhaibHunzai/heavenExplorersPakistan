@@ -35,7 +35,7 @@ const Footer = () => {
               Contact Us
             </Typography>
           </div>
-          <div>
+          <div style={{ height: "auto" }}>
             <div
               className={classes.heavenExplorer}
               style={{ paddingTop: "12px" }}
@@ -102,7 +102,7 @@ const Footer = () => {
           <Typography
             variant="subtitle1"
             className={classes.heavenExplorer}
-            style={{ fontSize: "16px" }}
+            style={{ fontSize: "16px", marginTop: "50px" }}
           >
             Copyright 2022 © Heaven Explorers Pakistan
           </Typography>
