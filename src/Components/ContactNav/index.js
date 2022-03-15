@@ -18,7 +18,7 @@ const ContactNav = () => {
             <MailOutlineIcon className={classes.ContactNavIcons} />
           </div>
           <div>
-            <Typography variant="subtitle1" className={classes.emailText}>
+            <Typography variant="subtitle2" className={classes.emailText}>
               info@heavenexplorers.com
             </Typography>
           </div>
@@ -30,7 +30,7 @@ const ContactNav = () => {
             <PhoneIcon className={classes.ContactNavIcons} />
           </div>
           <div>
-            <Typography variant="subtitle1" className={classes.ContactNavIcon}>
+            <Typography variant="subtitle2" className={classes.ContactNavIcon}>
               03495747188
             </Typography>
           </div>
@@ -42,7 +42,7 @@ const ContactNav = () => {
             <LocationOnIcon className={classes.ContactNavIcons} />
           </div>
           <div>
-            <Typography variant="subtitle1" className={classes.addressText}>
+            <Typography variant="subtitle2" className={classes.addressText}>
               Office#1 Hunza Plaza, Hunza, GB, Pakistan
             </Typography>
           </div>
@@ -54,7 +54,7 @@ const ContactNav = () => {
             <QueryBuilderIcon className={classes.ContactNavIcons} />
           </div>
           <div>
-            <Typography variant="subtitle1" className={classes.timeText}>
+            <Typography variant="subtitle2" className={classes.timeText}>
               10:00 AM - 08:00 PM
             </Typography>
           </div>
