@@ -164,15 +164,15 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "center",
   },
-  // pic: {
-  //   width: 450,
-  //   height: 450,
-  //   borderRadius: 10,
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: 300,
-  //     height: 250,
-  //   },
-  // },
+  pic: {
+    width: 450,
+    height: 450,
+    borderRadius: 10,
+    [theme.breakpoints.down("sm")]: {
+      width: 300,
+      height: 250,
+    },
+  },
   nano: {
     display: "flex",
     justifyContent: "space-evenly",
