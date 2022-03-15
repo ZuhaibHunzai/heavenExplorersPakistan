@@ -33,7 +33,7 @@ const Booking = () => {
       <div className={classes.contactHeader}>
         <ServicesHeader>Book Your trip</ServicesHeader>
       </div>
-      <div>
+      <div className={classes.formMain}>
         <form onSubmit={sendEmail} className={classes.contactFormMain}>
           <div className={classes.offerBookingInputs}>
             <div className={classes.allInputs}>
@@ -74,16 +74,18 @@ const Booking = () => {
               />
             </div>
             <div
-              style={{
-                display: "flex",
-                justifyContent: "space-evenly",
-              }}
+              // style={{
+              //   display: "flex",
+              //   justifyContent: "space-evenly",
+              // }}
+              className={classes.bookingBtnMain}
             >
               <Buttons
                 type="submit"
                 buttonSize="btn--medium"
                 buttonStyle="btn--primary--solid"
                 value="Send"
+                className={classes.bookingBtn}
               >
                 Book Now
               </Buttons>
