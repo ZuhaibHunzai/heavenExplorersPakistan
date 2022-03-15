@@ -164,15 +164,15 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "center",
   },
-  pic: {
-    width: 450,
-    height: 450,
-    borderRadius: 10,
-    [theme.breakpoints.down("sm")]: {
-      width: 300,
-      height: 250,
-    },
-  },
+  // pic: {
+  //   width: 450,
+  //   height: 450,
+  //   borderRadius: 10,
+  //   [theme.breakpoints.down("sm")]: {
+  //     width: 300,
+  //     height: 250,
+  //   },
+  // },
   nano: {
     display: "flex",
     justifyContent: "space-evenly",
@@ -183,19 +183,19 @@ const useStyles = makeStyles((theme) => ({
       flexDirection: "column-reverse",
     },
   },
-  icons: {
-    padding: 15,
-    cursor: "pointer",
-    "&:hover": {
-      opacity: "0.7",
-    },
-    [theme.breakpoints.down("sm")]: {
-      marginBottom: "10px",
-    },
-  },
-  links: {
-    margin: 10,
-  },
+  // icons: {
+  //   padding: 15,
+  //   cursor: "pointer",
+  //   "&:hover": {
+  //     opacity: "0.7",
+  //   },
+  //   [theme.breakpoints.down("sm")]: {
+  //     marginBottom: "10px",
+  //   },
+  // },
+  // links: {
+  //   margin: 10,
+  // },
   offersMainH: {
     color: "#FFFFFF",
   },

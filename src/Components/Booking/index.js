@@ -40,7 +40,7 @@ const Booking = () => {
               <input
                 type="text"
                 name="subject"
-                placeholder="Subject"
+                placeholder="Place name"
                 className={classes.contactFormInput}
                 required
               />
