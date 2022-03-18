@@ -27,6 +27,7 @@ const Hero = () => {
         </div>
         <div style={{ paddingTop: "20px" }}>
           <Buttons
+            className={classes.homeReadMoreBtn}
             type="button"
             buttonStyle="btn--primary--outlined"
             buttonSize="btn--medium"

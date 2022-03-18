@@ -152,7 +152,7 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: "1px solid #FFFFFF",
 
     paddingTop: "12px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       flexDirection: "column",
     },
   },
@@ -164,13 +164,26 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "center",
   },
+  pic_div: {
+    [theme.breakpoints.down("md")]: {
+      display: "flex",
+      justifyContent: "center",
+      AlignItems: "center",
+    },
+  },
   pic: {
     width: 450,
     height: 450,
     borderRadius: 10,
+    [theme.breakpoints.down("md")]: {
+      marginTop: "12px",
+      width: 450,
+      height: 450,
+    },
     [theme.breakpoints.down("sm")]: {
-      width: 300,
-      height: 250,
+      marginTop: "12px",
+      width: 320,
+      height: 320,
     },
   },
   nano: {

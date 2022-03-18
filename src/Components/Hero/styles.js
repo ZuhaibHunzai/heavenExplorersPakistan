@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "left",
     alignItems: "center",
     flexWrap: "wrap",
-
+    marginLeft: "0px",
     [theme.breakpoints.down("md")]: {
       width: "auto",
       height: "60vh",
@@ -24,10 +24,7 @@ const useStyles = makeStyles((theme) => ({
       width: "auto",
       height: "auto",
       backgroundPosition: "left",
-    },
-    [theme.breakpoints.down("sm")]: {
       backgroundImage: "none",
-      height: "auto",
     },
   },
   HeroTextArea: {
@@ -51,11 +48,11 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       width: "auto",
       height: "auto",
-      paddingTop: "20px",
+      paddingTop: "50px",
       paddingBottom: "20px",
       display: "flex",
       justifyContent: "center",
-      alignItems: "center",
+      alignItems: "left",
     },
   },
   heroMainH: {
@@ -65,14 +62,15 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       display: "flex",
       fontSize: "30px",
+      paddingLeft: "10px",
+      paddingRight: "10px",
       fontWeight: "500",
-
-      textAlign: "center",
+      textAlign: "left",
     },
     [theme.breakpoints.down("sm")]: {
       display: "flex",
       fontSize: "30",
-      fontWeight: "400",
+      fontWeight: "600",
       width: "auto",
       marginLeft: "10px",
     },
@@ -128,8 +126,8 @@ const useStyles = makeStyles((theme) => ({
       display: "flex",
       width: "auto",
       paddingTop: "20px",
-      paddingRight: "12px",
-      paddingLeft: "12px",
+      paddingRight: "10px",
+      paddingLeft: "10px",
       textAlign: "justify",
       fontSize: "18px",
     },
@@ -150,6 +148,11 @@ const useStyles = makeStyles((theme) => ({
     height: "500px",
     [theme.breakpoints.down("md")]: {
       display: "none",
+    },
+  },
+  homeReadMoreBtn: {
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: "20px",
     },
   },
 }));
